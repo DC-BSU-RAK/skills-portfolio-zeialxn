@@ -6,6 +6,7 @@ root = Tk()
 root.title("Exercise 1 - Maths Quiz")
 root.geometry('400x300')
 root.config(bg="#451742") # bg color of the window
+root.iconbitmap("multiplication.ico")
 
 def destroy(): # function to clear all widgets
     for widget in root.winfo_children():
